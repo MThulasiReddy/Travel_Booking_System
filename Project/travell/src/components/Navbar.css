@@ -1,0 +1,72 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 15px 30px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 95%;
+    max-width: 1200px;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    border-radius: 15px;
+}
+
+.navbar-logo {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ff6600;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.nav-links,
+.nav-links2 {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(222, 227, 218);
+    border-radius: 15px;
+}
+
+.nav-links li,
+.nav-links2 li {
+    display: inline;
+}
+
+.nav-links a,
+.nav-links2 a {
+    text-decoration: none;
+    color: #eb0c0c;
+    font-weight: 600;
+    padding: 10px 15px;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+
+.nav-links a:hover,
+.nav-links2 a:hover {
+    color: #ff6600;
+    background-color: rgba(255, 102, 0, 0.1);
+}
+
+.user-profile {
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10px 15px;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.user-profile:hover {
+    background-color: #e65c00;
+}

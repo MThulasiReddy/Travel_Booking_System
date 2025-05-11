@@ -1,0 +1,81 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://goldendestinations.com/_uploads/images/v1/images/article/Travel-the-world-monument-concept.jpg');
+
+    padding: 40px 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    height: 200px;
+    width: auto;
+    max-width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+.authForm {
+    background: linear-gradient(135deg, #ffffff, #e6f0ff);
+    padding: 30px 40px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.authForm h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.authForm label {
+    font-weight: 600;
+    margin-top: 10px;
+    display: block;
+    text-align: left;
+}
+
+.authForm input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.authForm button {
+    width: 100%;
+    padding: 12px;
+    background-color: rgb(226, 101, 18);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.authForm button:hover {
+    background-color: orange;
+}
+
+.authForm p {
+    margin-top: 15px;
+    font-size: 14px;
+}

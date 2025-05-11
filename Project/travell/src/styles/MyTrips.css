@@ -1,0 +1,56 @@
+.trip-table-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f9f9ff;
+    border-radius: 12px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .trip-table-container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    font-weight: 700;
+  }
+  
+  .trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .trip-table th,
+  .trip-table td {
+    padding: 14px 16px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .trip-table th {
+    background-color: rgb(226, 101, 18);
+    color: white;
+    font-size: 1.1rem;
+  }
+  
+  .trip-table tr:hover {
+    background-color: #f0f0ff;
+  }
+  
+  .trip-img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+  }
+  
+  .trip-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
